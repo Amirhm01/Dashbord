@@ -8,9 +8,7 @@ export interface Device {
     performance: DevicePerformance;
     status: DeviceStatus;
 }
-interface DeviceTableProps {
-    data: Device[];
-}
+
 export const exportCSV = (data: Device[], fileName = "گزارش روزانه.csv") => {
     if (data.length === 0) return;
 

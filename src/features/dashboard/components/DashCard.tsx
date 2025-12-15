@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
-import {Activity, DollarCircle, Bag, Cpu, PercentageCircle} from 'iconsax-react';
+import {Activity, DollarCircle, Cpu, PercentageCircle} from 'iconsax-react';
 import theme from "@/theme";
 import { IconButton } from '@mui/material';
 import {Stack} from "@mui/system";
@@ -23,7 +23,7 @@ export interface Device {
 
 export default function DashCard() {
     const {isMd } = useBreakpointFires();
-    const [data, setData] = useState<Device[]>([]);
+    const [, setData] = useState<Device[]>([]);
     const [activeDevices, setActiveDevices] = useState<number>(0);
     useEffect(() => {
         const fetchData = async () => {

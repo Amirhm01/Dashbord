@@ -17,12 +17,9 @@
     "paths": {"@/*": ["*"]},
     "plugins": [
       {
-        "name": "next"
+        "name": "next",
       }
     ],
-    "paths": {
-      "@/*": ["./*"]
-    }
   },
   "include": [
     "next-env.d.ts",

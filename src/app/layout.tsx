@@ -4,7 +4,7 @@ import Navbar from "@/features/layout/components/Navbar";
 import Sidebar from "@/features/layout/components/Sidebar";
 import "./globals.css";
 import { Provider } from "react-redux";
-import { store } from "@/store/index";
+import { store } from "@/store";
 import { ThemeProvider } from "@mui/material";
 import theme from "@/theme";
 import * as React from "react";
