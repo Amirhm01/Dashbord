@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "اکسترودر پلاستیک مدل PX-200", "type": "پلاستیک", "consumption": 1200, "performance": "فعال", "status": "سالم" },
+  { "id": 2, "name": "پرس هیدرولیک مدل HPR-500", "type": "فلزات", "consumption": 1500, "performance": "فعال", "status": "سالم" },
+  { "id": 3, "name": "ماشین بسته‌بندی اتوماتیک BP-300", "type": "بسته‌بندی", "consumption": 900, "performance": "فعال", "status": "سالم" },
+  { "id": 4, "name": "نورد ورق فولادی NR-100", "type": "فلزات", "consumption": 1800, "performance": "فعال", "status": "نیاز به بررسی" },
+  { "id": 5, "name": "دستگاه برش CNC مدل CNC-750", "type": "فلزات", "consumption": 800, "performance": "فعال", "status": "سالم" },
+  { "id": 6, "name": "آسیاب سیمان مدل SM-450", "type": "سیمان", "consumption": 2000, "performance": "فعال", "status": "سالم" },
+  { "id": 7, "name": "مخلوط‌کن صنعتی MX-1000", "type": "پودر و مواد", "consumption": 700, "performance": "فعال", "status": "سالم" },
+  { "id": 8, "name": "پمپ هیدرولیک PH-220", "type": "هیدرولیک", "consumption": 400, "performance": "فعال", "status": "نیاز به بررسی" },
+  { "id": 9, "name": "کانوایر تسمه‌ای CV-150", "type": "حمل و نقل", "consumption": 300, "performance": "غیرفعال", "status": "سالم" },
+  { "id": 10, "name": "دستگاه چاپ صنعتی IC-200", "type": "چاپ", "consumption": 500, "performance": "فعال", "status": "سالم" },
+  { "id": 11, "name": "دستگاه قالب‌گیری تزریقی IM-500", "type": "پلاستیک", "consumption": 1600, "performance": "فعال", "status": "سالم" },
+  { "id": 12, "name": "دستگاه جوشکاری رباتیک WR-400", "type": "فلزات", "consumption": 1100, "performance": "غیرفعال", "status": "سالم" },
+  { "id": 13, "name": "دستگاه تزریق رزین RI-300", "type": "رزین", "consumption": 900, "performance": "فعال", "status": "نیاز به بررسی" },
+  { "id": 14, "name": "بالابر صنعتی LB-50", "type": "حمل و نقل", "consumption": 350, "performance": "فعال", "status": "سالم" },
+  { "id": 15, "name": "کمپرسور هوا CM-750", "type": "هوای فشرده", "consumption": 600, "performance": "فعال", "status": "سالم" },
+  { "id": 16, "name": "دستگاه رول‌ فرمینگ RF-200", "type": "فلزات", "consumption": 1300, "performance": "غیرفعال", "status": "سالم" },
+  { "id": 17, "name": "دستگاه چاپ سیلک SK-100", "type": "چاپ", "consumption": 450, "performance": "فعال", "status": "سالم" },
+  { "id": 18, "name": "آسیاب خوراک دام AF-300", "type": "خوراک دام", "consumption": 500, "performance": "غیرفعال", "status": "نیاز به بررسی" },
+  { "id": 19, "name": "میکسر سیمان BM-500", "type": "سیمان", "consumption": 1700, "performance": "فعال", "status": "سالم" },
+  { "id": 20, "name": "دستگاه بسته‌بندی کیسه‌ای SB-100", "type": "بسته‌بندی", "consumption": 800, "performance": "فعال", "status": "سالم" }
+]
