@@ -79,38 +79,65 @@ export default function DeviceTable({ data }: DeviceTableProps) {
                 <Stack direction="row" spacing={isMd ? 2 : 0}
                     mt={1}
                 >
-                <TextField
-                    label="جستجو نام"
-                    size="small"
-                    value={searchName}
-                    onChange={(e) => setSearchName(e.target.value)}
-                    sx={{ width: isMd ? 170 : 140 , scale: isMd ? 1 : .8 }}
-                    InputLabelProps={{ sx: { fontSize: isMd ? 12 : 10 } }}
-                />
+                    <TextField
+                        label="جستجو نام"
+                        size="small"
+                        value={searchName}
+                        onChange={(e) => setSearchName(e.target.value)}
+                        sx={{
+                            width: isMd ? 170 : 140,
+                            scale: isMd ? 1 : 0.8,
+                        }}
+                        slotProps={{
+                            inputLabel: {
+                                sx: {
+                                    fontSize: isMd ? 12 : 10,
+                                },
+                            },
+                        }}
+                    />
 
-                <TextField
-                    label="فیلتر ID"
-                    size="small"
-                    type="number"
-                    value={filterId}
-                    onChange={(e) => setFilterId(e.target.value)}
-                    sx={{ width: isMd ? 100 : 80  , scale: isMd ? 1 : .8}}
-                    InputLabelProps={{ sx: { fontSize: isMd ? 12 : 10 } }}
-                />
+                    <TextField
+                        label="فیلتر ID"
+                        size="small"
+                        type="number"
+                        value={filterId}
+                        onChange={(e) => setFilterId(e.target.value)}
+                        sx={{
+                            width: isMd ? 100 : 80,
+                            scale: isMd ? 1 : 0.8,
+                        }}
+                        slotProps={{
+                            inputLabel: {
+                                sx: {
+                                    fontSize: isMd ? 12 : 10,
+                                },
+                            },
+                        }}
+                    />
 
-                <TextField
-                    label="عملکرد دستگاه"
-                    size="small"
-                    select
-                    value={filterPerformance}
-                    onChange={(e) => setFilterPerformance(e.target.value)}
-                    sx={{ minWidth: isMd ? 150 : 100 , scale: isMd ? 1 : .8 }}
-                    InputLabelProps={{ sx: { fontSize: isMd ? 12 : 10 } }}
-                >
-                    <MenuItem value="">همه</MenuItem>
-                    <MenuItem value="فعال">فعال</MenuItem>
-                    <MenuItem value="غیرفعال">غیرفعال</MenuItem>
-                </TextField>
+                    <TextField
+                        label="عملکرد دستگاه"
+                        size="small"
+                        select
+                        value={filterPerformance}
+                        onChange={(e) => setFilterPerformance(e.target.value)}
+                        sx={{
+                            minWidth: isMd ? 150 : 100,
+                            scale: isMd ? 1 : 0.8,
+                        }}
+                        slotProps={{
+                            inputLabel: {
+                                sx: {
+                                    fontSize: isMd ? 12 : 10,
+                                },
+                            },
+                        }}
+                    >
+                        <MenuItem value="">همه</MenuItem>
+                        <MenuItem value="فعال">فعال</MenuItem>
+                        <MenuItem value="غیرفعال">غیرفعال</MenuItem>
+                    </TextField>
                 </Stack>
                 <Button sx={{ scale: isMd ? 1 : .8}} variant={"contained"} onClick={() => exportCSV(filteredItems)}>
                     دانلود
