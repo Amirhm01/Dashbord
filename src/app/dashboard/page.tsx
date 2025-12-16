@@ -84,10 +84,24 @@ export default function DashPage() {
                 >
                     {DEVICES.map((device) => (
                         <MenuItem key={device} value={device}>
-                            <Checkbox checked={selectedDevices.includes(device)} size="small" />
-                            <ListItemText primary={device} primaryTypographyProps={{ fontSize: 12 }} />
+                            <Checkbox
+                                checked={selectedDevices.includes(device)}
+                                size="small"
+                            />
+
+                            <ListItemText
+                                primary={device}
+                                slotProps={{
+                                    primary: {
+                                        sx: {
+                                            fontSize: 12,
+                                        },
+                                    },
+                                }}
+                            />
                         </MenuItem>
                     ))}
+
                 </Select>
             </FormControl>
 
