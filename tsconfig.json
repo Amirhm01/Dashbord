@@ -14,22 +14,23 @@
     "jsx": "react-jsx",
     "incremental": true,
     "baseUrl": "src",
-    "paths": {"@/*": ["*"]},
+    "paths": {
+      "@/*": ["*"]
+    },
     "plugins": [
       {
-        "name": "next",
+        "name": "next"
       }
-    ],
+    ]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts"
-
+    "**/*.tsx"
   ],
-  "exclude": ["node_modules", "**/*.md"]
-
+  "exclude": [
+    "node_modules",
+    "**/*.md",
+    ".next"
+  ]
 }
